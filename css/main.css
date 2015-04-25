@@ -16,20 +16,22 @@ header{
 }
 
 header img{
-  width: 75px;
+  width: 20%;
   float: left;
+  margin-top: -6%;
 }
 
 nav li{
-  diplay: inline-block;
+  display: inline-block;
   float: left;
   width: 25%;
   background-color: #F58433;
   color: black;
   border-radius: 1.4em;
-  padding: 1em 3em;
+  padding: .5em 5em .5em 2em;
   text-align: center;
   margin-left: 5%;
+  list-style-type: none;
 }
 
 nav ol{
@@ -49,7 +51,6 @@ nav a{
 .banner{
   background-color: black;
   color: white;
-  padding-bottom: 4em;
 }
 
 .banner p{
@@ -103,7 +104,7 @@ h2{
   text-align: center;
   width: 100%;
   color: white;
-  font-size: 3em;
+  font-size: 200%;
 }
 
 .orange p{
@@ -144,9 +145,11 @@ dl{
 
 footer img{
   width: 15%;
+  margin-right: 5%;
 }
 
 footer{
   text-align: center;
   width: 100%;
+  margin-top: 20px;
 }
