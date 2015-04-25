@@ -58,11 +58,6 @@ nav a{
   font-size: 2em;
 }
 
-.2{
-width: 100%;
-text-align: right;
-}
-
 h2{
   background-color: #7DCDCA;
   font-size: 2em;
@@ -116,11 +111,12 @@ h2{
   background-color: #F58433;
 }
 
-dl{
+ul{
   text-align: center;
   font-size: 18pt;
   width: 100%;
   margin: 0;
+  list-style-type: none;
 }
 
 .hinton{
