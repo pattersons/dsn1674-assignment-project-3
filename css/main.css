@@ -1,0 +1,152 @@
+html{
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+}
+
+header{
+  background-color: #7DCDCA;
+  padding: 3em;
+}
+
+header img{
+  width: 75px;
+  float: left;
+}
+
+nav li{
+  diplay: inline-block;
+  float: left;
+  width: 25%;
+  background-color: #F58433;
+  color: black;
+  border-radius: 1.4em;
+  padding: 1em 3em;
+  text-align: center;
+  margin-left: 5%;
+}
+
+nav ol{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+.banner img{
+  width: 100%;
+}
+
+.banner{
+  background-color: black;
+  color: white;
+  padding-bottom: 4em;
+}
+
+.banner p{
+  margin: 0 10%;
+  font-size: 2em;
+}
+
+.2{
+width: 100%;
+text-align: right;
+}
+
+h2{
+  background-color: #7DCDCA;
+  font-size: 2em;
+  color: black;
+  padding: 1em;
+  width: 100%;
+  margin: 0;
+  margin-bottom: -16px;
+  text-align: center;
+}
+.promotions{
+  background-color: black;
+  color: black;
+  text-align: center;
+  padding: .5em 0;
+}
+
+.promotions p{
+  background-color: #F58433;
+  border-radius: .75em;
+  width: 40%;
+  font-size: 1.5em;
+  padding: .5em 1em;
+  margin-left: 30%;
+}
+
+.menu img{
+  width: 100%;
+  margin-bottom: 0;
+}
+ .menu{
+   position: relative;
+   width: 100%;
+ }
+
+.menu h3{
+  position: absolute;
+  bottom: 15%;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: 3em;
+}
+
+.orange p{
+  margin: 0 15%;
+  padding: .4em 0;
+}
+
+.orange{
+  background-color: #F58433;
+}
+
+dl{
+  text-align: center;
+  font-size: 18pt;
+  width: 100%;
+  margin: 0;
+}
+
+.hinton{
+  text-align: center;
+}
+
+.chocolate{
+  margin: 0;
+}
+
+.members{
+  background-color: black;
+  color: white;
+  padding: .5em 0;
+}
+
+.members p{
+  margin-left: 15px;
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+footer img{
+  width: 15%;
+}
+
+footer{
+  text-align: center;
+  width: 100%;
+}
